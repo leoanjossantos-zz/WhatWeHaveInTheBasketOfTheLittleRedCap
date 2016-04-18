@@ -7,11 +7,11 @@
 - **npm:** sudo npm install npm -g
 - **Install the ionic:** npm install -g cordova ionic
 
-### <i class="icon-cog"></i> Run the project:
-- In the project directory run:
-> - ionic platform add ios or android
-> - ionic build ios or android
-> - ionic serve --lab
+### <i class="icon-cog"></i> Running the project:
+- In the project directory to run following commands:
+- ionic platform add ios or android
+- ionic build ios or android
+- ionic serve --lab
 
 ### License
 - - -
