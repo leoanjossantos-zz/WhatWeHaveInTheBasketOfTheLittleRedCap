@@ -9,9 +9,9 @@
 
 ### <i class="icon-cog"></i> Run the project:
 - In the project directory run:
--- ionic platform add ios or android
--- ionic build ios or android
--- ionic serve --lab
+> - ionic platform add ios or android
+> - ionic build ios or android
+> - ionic serve --lab
 
 ### License
 - - -
