@@ -1,18 +1,17 @@
-### Install:
-- Nodes.js 4: http://nodejs.org/
-- npm: sudo npm install npm -g
 
-### In the directory:
-- Create a directory to the app
-- Install the ionic: npm install -g cordova ionic
-- Create a prototype here: https://creator.ionic.io/
-- Start your project: ionic start [appName] creator:dfd5e16d2e44
+### <i class="icon-folder-open"></i> In the project directory:
+- Clone this project
 
-### Run the project:
-- cd myAppName
-- ionic platform add ios or android
-- ionic build ios or android
-- ionic emulate ios or android
+### <i class="icon-download"></i> Install:
+- **Nodes.js 4:** http://nodejs.org/
+- **npm:** sudo npm install npm -g
+- **Install the ionic:** npm install -g cordova ionic
 
-### Open on Browser:
-- ionic serve --lab
+### <i class="icon-cog"></i> Run the project:
+- In the project directory run:
+-- ionic platform add ios or android
+-- ionic build ios or android
+-- ionic serve --lab
+
+### License
+- - -
