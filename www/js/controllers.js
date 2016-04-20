@@ -11,8 +11,8 @@ angular.module('app.controllers', ['ionic', 'firebase'])
 
   $scope.lanches = Lanches;
 
-  $scope.addItem = function() {
-    var descricao = prompt('Descrição do lanche');
+  $scope.addItem = function(lanche) {
+    var descricao = lanche.descricao
     if(descricao){
       $scope.lanches.$add({
         'descricao': descricao

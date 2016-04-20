@@ -7,9 +7,9 @@
         <h3 id="tirarFotoDoLanche-heading2" style="color:#000000;">Descrição:</h3>
         <form class="list">
           <label class="item item-input">
-            <input type="text" placeholder="Descrição do lanche aqui...">
+            <input type="text" name="descricao" placeholder="Descrição do lanche aqui..." ng-model="lanche.descricao">
           </label>
         </form>
-        <a ui-sref="detalheDoMeuLanche" id="tirarFotoDoLanche-button8" style="font-weight:bold;color:#C20E15;font-size:-1px;" class="button button-light button-large button-block button-outline icon ion-android-share-alt" ng-click="addItem()">Compartilhar Lanche</a>
+        <a ui-sref="detalheDoMeuLanche" id="tirarFotoDoLanche-button8" style="font-weight:bold;color:#C20E15;font-size:-1px;" class="button button-light button-large button-block button-outline icon ion-android-share-alt" ng-click="addItem(lanche)">Compartilhar Lanche</a>
     </ion-content>
 </ion-view>
