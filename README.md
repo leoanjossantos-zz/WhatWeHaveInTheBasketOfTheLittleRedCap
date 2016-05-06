@@ -6,6 +6,7 @@
 - **Nodes.js 4:** http://nodejs.org/
 - **npm:** sudo npm install npm -g
 - **Install the ionic:** npm install -g cordova ionic
+- **Install the cordova-plugin-camera:** cordova plugin add cordova-plugin-camera --save
 
 ### <i class="icon-cog"></i> Running the project:
 - In the project directory to run following commands:

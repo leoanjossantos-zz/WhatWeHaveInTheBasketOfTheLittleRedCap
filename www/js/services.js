@@ -1,10 +1,6 @@
 angular.module('app.services', [])
 
-.factory('BlankFactory', [function(){
-
-}])
-
-.service('BlankService', [function(){
-
+.factory('Lanches', ['$firebaseArray', function($firebaseArray) {
+  var lanchesRef = new Firebase('https://oquetemnacestadachap.firebaseio.com/lanches');
+  return $firebaseArray(lanchesRef);
 }]);
-
