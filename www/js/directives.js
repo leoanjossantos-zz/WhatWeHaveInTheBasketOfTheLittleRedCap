@@ -1,6 +1,2 @@
 angular.module('app.directives', [])
-
-.directive('blankDirective', [function(){
-
-}]);
-
+  .directive('ngCordova', [function(){}]);

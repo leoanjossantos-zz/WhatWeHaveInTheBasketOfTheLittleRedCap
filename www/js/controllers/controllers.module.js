@@ -1,1 +1,1 @@
-angular.module('app.controllers', ['ionic', 'firebase']);
+angular.module('app.controllers', ['ionic', 'firebase', 'ngCordova']);
