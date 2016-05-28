@@ -1,5 +1,5 @@
 angular.module('app.controllers')
-  .controller('tirarFotoDoLancheCtrl', function($scope, $ionicListDelegate, $cordovaCamera, Lanches) {
+  .controller('tirarFotoDoLancheCtrl', function($scope, $ionicListDelegate, $cordovaCamera, Lanches, MeuLancheService) {
 
     //refatorar -> Criar service para upload de imagens
     $scope.upload = function() {
@@ -33,6 +33,7 @@ angular.module('app.controllers')
           'descricao': descricao,
           'imagem': $scope.imagem
         });
+        $scope.meuLanche = MeuLancheService.addMeuLanche(descricao, $scope.imagem);
       }
     };
 
