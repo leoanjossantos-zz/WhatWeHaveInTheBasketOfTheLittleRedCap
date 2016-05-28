@@ -39,7 +39,7 @@ angular.module('app.routes', [])
     controller: 'detalheDoMeuLancheCtrl'
   })
 
-$urlRouterProvider.otherwise('/loginpage')
+  $urlRouterProvider.otherwise('/loginpage')
 
 
 
