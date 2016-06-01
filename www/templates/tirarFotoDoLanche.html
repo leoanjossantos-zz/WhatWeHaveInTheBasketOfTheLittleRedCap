@@ -1,13 +1,11 @@
-<ion-view title="Tirar Foto do Lanche" id="page6">
-    <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <h3 id="tirarFotoDoLanche-heading1" style="color:#000000;">Seu lanche</h3>
-        <div style="line-height: 250px; border: 1px solid rgb(238, 238, 238); border-radius: 3px; text-align: center; background-color: rgb(255, 255, 255);">
-            <!-- <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;">
-            </i> -->
-              <!-- <img ng-src={{imagem}} height="300px" width="200"/> -->
-              <img ng-src="data:image/jpeg;base64,{{imagem}}" height="300px" width="200"/>
-              <!-- <input type="image" name="imagem" ng-model="lanche.imagem"> -->
+<ion-view title="Tirar Foto do Lanche" id="page6" cache-view="false">
+    <ion-content overflow-scroll="true" padding="true">
+        <h3 id="tirarFotoDoLanche-heading1" style="text-align:center" class="bar bar-header bar-royal">Meu lanche</h3>
+        <div class="spacer" style="width: 300px; height: 35px;"></div>
+        <div style="text-align:center">
+          <img ng-src="data:image/jpeg;base64,{{imagem}}" width="300" height="auto"/>
         </div>
+        <button style="font-weight:bold;color:#C20E15;font-size:-1px;" class="button button-outline button-positive" ng-click="tirarFotoLancheButton()">Clique aqui para trocar sua foto</button>
         <h3 id="tirarFotoDoLanche-heading2" style="color:#000000;">Descrição:</h3>
         <form class="list">
           <label class="item item-input">

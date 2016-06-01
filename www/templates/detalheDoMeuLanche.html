@@ -1,12 +1,13 @@
-<ion-view title="Detalhe do meu Lanche" id="page14">
-    <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <h3 id="detalheDoMeuLanche-heading5" style="color:#000000;">Detalhe do meu lanche</h3>
-        <div style="text-align:center;">
-            <img ng-src="data:image/jpeg;base64,{{fotoMeuLanche}}" width="100%" height="auto">
+<ion-view title="Detalhe do meu Lanche" id="page14" cache-view="false">
+    <ion-content overflow-scroll="true" padding="true">
+        <h3 id="detalheDoMeuLanche-heading5" style="text-align:center" class="bar bar-header bar-royal">O que tem no meu lanche</h3>
+        <div class="spacer" style="width: 300px; height: 35px;"></div>
+        <div style="text-align:center">
+            <img ng-src="data:image/jpeg;base64,{{fotoDoMeuLanche}}" width="100%" height="auto">
         </div>
         <div id="detalheDoMeuLanche-markdown2" style="color:#000000;">
             <p>
-                {{descricaoMeuLanche}}
+                {{descricaoDoMeuLanche}}
             </p>
         </div>
         <div class="spacer" style="width: 300px; height: 66px;"></div>

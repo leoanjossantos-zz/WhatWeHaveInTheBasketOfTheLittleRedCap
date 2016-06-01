@@ -1,8 +1,9 @@
 <ion-view title="Listagem" id="page10">
-    <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <h3 id="listagem-heading3" style="color:#000000;">Últimos lanches:</h3>
+    <ion-content overflow-scroll="true" padding="true">
+        <h3 id="listagem-heading3" style="text-align:center" class="bar bar-header bar-royal" class="title">Últimos lanches</h3>
+        <div class="spacer" style="width: 300px; height: 35px;"></div>
         <ion-list>
-            <ion-item ng-repeat="lanche in lanches" class="item-thumbnail-left" ng-click="callToAddToLancheList(lanche)" ui-sref="detalheDoLancheColega">
+            <ion-item ng-repeat="lanche in lanches" class="item-thumbnail-left" ng-click="addLancheColegaToList(lanche)" ui-sref="detalheDoLancheColega">
                 <img ng-src="data:image/jpeg;base64,{{lanche.imagem}}">
                 <h2></h2>
                 <p>

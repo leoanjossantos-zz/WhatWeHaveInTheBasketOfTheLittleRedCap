@@ -21,7 +21,7 @@ angular.module('app.services', [])
   }
 }])
 
-.factory('MeuLancheService', [function(){
+.factory('MeuLancheService', function(){
   var lancheDescricao;
   var lancheFoto;
 
@@ -43,4 +43,4 @@ angular.module('app.services', [])
     getLancheDescricao: getLancheDescricao,
     getLancheFoto: getLancheFoto
   }
-}]);
+});
